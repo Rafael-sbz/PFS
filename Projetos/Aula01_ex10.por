@@ -19,8 +19,6 @@ programa
 		escreva(horas,":",minutos,":", segundos)
 			
 //dúvidas
-//Não é necessário estabelecer o limite de 60 para segundos e minutos?
-//Como funciona esse %?
 //Como colocar dois algarismos na resposta? 00:00:00 ao invés de 0:0:0
 		
 	}
@@ -30,7 +28,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 554; 
+ * @POSICAO-CURSOR = 612; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

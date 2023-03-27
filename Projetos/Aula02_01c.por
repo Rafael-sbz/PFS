@@ -3,15 +3,10 @@ programa
 	
 	funcao inicio()
 	{
-		cadeia nome, senha
+
+//esse projeto serve para entender o uso da variável - logico - responde verdadeiro ou falso para o critério definido.
 		logico resultado
 		
-		//escreva("Digite seu nome:")
-		//leia(nome)
-
-		//escreva("Digite sua senha:")
-		//leia(senha)
-
 		//resultado = 2>5
 		//resultado = (2>5) e (3>0)
 		//resultado = nao((2>5) e (3>0))
@@ -45,7 +40,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 441; 
+ * @POSICAO-CURSOR = 326; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

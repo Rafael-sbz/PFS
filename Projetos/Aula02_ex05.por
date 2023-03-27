@@ -18,6 +18,7 @@ Saída esperada: Fila preferencial
 		cadeia nome
 		inteiro idade
 		logico gestacao, condicaoFisica
+// logico usa duas possibilidade: verdadeiro ou falso
 
 		escreva("Nome: ")
 		leia(nome)
@@ -31,6 +32,16 @@ Saída esperada: Fila preferencial
 		escreva("A usuária é gestante? ")
 		leia(gestacao)
 
+		/* Se eu quiser incluir as respostas Sim e sim como possibilidade de resposta, 
+		 *  devo inserir "resposta" como variável cadeia, e pedir que "leia resposta" 
+		 *  após as perguntas e criar um "se senão":
+		se (resposta == "sim" ou resposta == "Sim"){
+			gestacao = verdadeiro
+		} senao {
+			gestacao = falso
+		}
+		*/
+
 		se (idade >= 65 ou gestacao == verdadeiro ou condicaoFisica == verdadeiro){
 		escreva("O usuário irá para a fila preferencial")	
 		}
@@ -38,8 +49,7 @@ Saída esperada: Fila preferencial
 		senao {
 		escreva("O usuário irá para a fila comum")
 		}
-		
-		
+			
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -47,7 +57,7 @@ Saída esperada: Fila preferencial
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 514; 
+ * @POSICAO-CURSOR = 1386; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

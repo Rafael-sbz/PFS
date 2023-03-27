@@ -1,8 +1,7 @@
 programa
 {
 	
-//programa para leitura de um número e como resposta
-// seu sucessor e antecessor
+//programa para leitura de um número e como resposta seu sucessor e antecessor
 	
 	funcao inicio()
 	{
@@ -13,10 +12,11 @@ programa
 		//2o passo - definir o texto para entrada de valor pelo teclado do usuário
 
 		leia(numero)
+		//3o passo - falar para o programa ler o conteúdo inserido pelo teclado do usuário
 
-		escreva("Sucessor:", numero + 1)
+		escreva("Sucessor: ", numero + 1)
 
-		escreva("\nAntecessor:", numero - 1)
+		escreva("\nAntecessor: ", numero - 1)
 
 
 		

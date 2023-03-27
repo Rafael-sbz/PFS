@@ -1,5 +1,6 @@
 programa
 {
+	//inclua biblioteca Matematica --> m
 	
 	funcao inicio()
 	{
@@ -21,8 +22,14 @@ pagamento, e exibir quantos litros ele conseguiu colocar no tanque.
 		resultado = pag / preco_litro
 
 		escreva("Você conseguiu colocar " + resultado + " litros de gasolina")
+		//escreva("Você conseguiu colocar " + m.arredondar(resultado, 2) + " litros de gasolina")
+		
+		//O código acima inclui a função arredondar da biblioteca matemática (m.arredondar)
+		//para isso funcionar devo chamar a biblioteca no início do arquivo, logo após programa, antes de função.
+		//perceba que para reduzir a digitação do código, foi atribuído um apelido de m para a biblioteca matemática
 
-//DÚVIDA - Como limitar a quantidade de números após o ponto no valor do resultado?
+
+
 
 	
 	}
@@ -32,7 +39,7 @@ pagamento, e exibir quantos litros ele conseguiu colocar no tanque.
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 623; 
+ * @POSICAO-CURSOR = 665; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

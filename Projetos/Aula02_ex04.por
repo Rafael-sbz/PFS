@@ -24,17 +24,16 @@ Saída esperada: 10 * 2 = 20
 		leia(operacao)
 
 		se (operacao == '+')
-		escreva("O resultado é: " + num1 + num2)
-
+		escreva("O resultado é: " + (num1 + num2))
+		//Atenção para a necessidade dos parênteses isolando (num1 operação num 2)
 		se (operacao == '-')
-		escreva(num1 - num2)
-		//DÚVIDA - porque não dá para escrever "o resultado é" na subtração?
+		escreva("O resultado é: " + (num1 - num2))
 
 		se (operacao == '*')
-		escreva("O resultado é: " + num1 * num2)
+		escreva("O resultado é: " + (num1 * num2))
 
 		se (operacao == '/')
-		escreva("O resultado é: " + num1 / num2)
+		escreva("O resultado é: " + (num1 / num2))
 
 
 		
@@ -45,7 +44,7 @@ Saída esperada: 10 * 2 = 20
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 581; 
+ * @POSICAO-CURSOR = 642; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

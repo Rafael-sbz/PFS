@@ -1,31 +1,31 @@
 programa
 {
+	//2) Faça outro exercício para que sejam impressos os números da seguinte forma: 100,90...10
+
 	
 	funcao inicio()
 	{
-		
-		inteiro contador = 10
-		
-		//toda estrutura de repetição tem que ter uma condição de saída
-		enquanto(contador > 0){
-				escreva("Detonação de bomba em ", contador, "\n")
-				
-				//contador = contador - 1     essa informação também pode ser escrita da seguinte maneira:      contador--
-	 			contador--
-
-				
+	
+	// para (inicialização; condição; incremento)
+	
+		para(inteiro n=100; n>=10; n-=10){
+			escreva(n,"\n")
+			se (n == 50){
+			escreva("Fim", "\n")
+			pare
+			}
 		}
-		escreva("Boooommm")
-
-
 	}
+
+//perceba que foi adicionado um pare - quando chegar ao 50, através do uso do se.
+	
 }
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 213; 
+ * @POSICAO-CURSOR = 378; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

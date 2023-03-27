@@ -4,16 +4,17 @@ programa
 	funcao inicio()
 	{
 		cadeia nome, senha
-		logico resultado
+		
 		escreva("Digite seu nome:")
 		leia(nome)
 
 		escreva("Digite sua senha:")
 		leia(senha)
+
 	
 		se(nome == "Maria" e senha == "123"){
 			escreva("Bem vindo ao sistema!")
-			escreva("oi")
+			escreva("Olá")
 		}senao{
 			escreva("Login ou Usuário inválido!")
 		}
@@ -34,7 +35,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 162; 
+ * @POSICAO-CURSOR = 54; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

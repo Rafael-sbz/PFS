@@ -1,6 +1,6 @@
 programa
 {
-	// REVISÃO DA AULA ANTERIOR. Utilizando para, enquanto, faça + enquanto
+	// REVISÃO DA AULA ANTERIOR. Utilizando para, enquanto, faça + enquanto
 
 	
 	funcao inicio()
@@ -20,7 +20,7 @@ programa
 			i++
 		}
 		*/
-
+		inteiro i=0
 		faca{
 			i++
 			escreva("oi", "\n")
@@ -34,7 +34,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 344; 
+ * @POSICAO-CURSOR = 408; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

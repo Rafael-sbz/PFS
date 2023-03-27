@@ -1,8 +1,7 @@
 programa
 {
 
-//6) Escreva um programa que leia a temperatura em Celsius e retorne o valor em Fahrenheit
-//F = C x 1,8 + 32
+//6) Escreva um programa que leia a temperatura em Celsius e retorne o valor em Fahrenheit - F = C x 1,8 + 32
 
 	funcao inicio()
 	{
@@ -22,7 +21,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 124; 
+ * @POSICAO-CURSOR = 105; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

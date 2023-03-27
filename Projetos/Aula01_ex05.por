@@ -1,9 +1,10 @@
 programa
 {
 	
-//5) Uma empresa paga R$10.00 por hora normal trabalhada e R$ 15.00 por hora extra. Escreva um
-//algoritmo que leia o total de horas normais trabalhadas e o total de horas extras trabalhadas por um
-//empregado em um ano e calcule o salário anual deste trabalhador.
+/*5) Uma empresa paga R$10.00 por hora normal trabalhada e R$ 15.00 por hora extra. Escreva um
+algoritmo que leia o total de horas normais trabalhadas e o total de horas extras trabalhadas por um
+empregado em um ano e calcule o salário anual deste trabalhador.
+*/
 	
 	funcao inicio()
 	{
@@ -23,7 +24,7 @@ qual é o salário anual?*/
 
 	resultado = (ht*10+hx*15)
 
-	escreva("Seu salário será R$ ", resultado)
+	escreva("Seu salário será R$ ", resultado , " reais")
 	
 	}
 }
@@ -32,7 +33,7 @@ qual é o salário anual?*/
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 281; 
+ * @POSICAO-CURSOR = 636; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

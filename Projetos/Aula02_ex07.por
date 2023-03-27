@@ -11,7 +11,7 @@ conta de poupança (10% do total arrecadado). Você foi contratado para fazer os
 para ler as quantidades de pães e de broas, e depois calcular os dados solicitados.
  */
 		
-		real preco, poupanca, paes, broas, FB, FP, FT
+		real poupanca, paes, broas, FB, FP, FT
 
 		escreva("Pães vendidos: ")
 		leia(paes)
@@ -38,7 +38,7 @@ para ler as quantidades de pães e de broas, e depois calcular os dados solicita
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 963; 
+ * @POSICAO-CURSOR = 626; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
